@@ -65,7 +65,6 @@ void HarryPotter(int buzzer) {
   // iterate over the notes of the melody. 
   // Remember, the array is twice the number of notes (notes + durations)
   for (int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2) {
-    Serial.println("For");
     // calculates the duration of each note
     divider = melody[thisNote + 1];
     if (divider > 0) {
